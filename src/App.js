@@ -1,4 +1,5 @@
 import Navbar from './comps/Navbar/Navbar.jsx';
+import Footer from './comps/Footer/Footer.jsx';
 import './App.css';
 import { Shop } from './pages/Shop.jsx';
 import { ShopCategory } from './pages/ShopCategory.jsx';
@@ -25,6 +26,7 @@ function App() {
             <Route path='/cart' element={<Cart/>}></Route >
             <Route path='/login' element={<LoginSignUp/>}></Route>
         </Routes>
+        <Footer/>
         </BrowserRouter>
     </div>
   );
